@@ -51,13 +51,14 @@ git clone https://github.com/miurla/babyagi-ui
 2. Go to the project holder
 
 ```sh
-cd babyagi-ui
+cd babyagi-ui (python)
 ```
 
-3. Install packages with npm
+3. Install packages with npm and pinecone
 
 ```sh
-npm install
+npm install (powershell)
+pip install openai quart quart-cors pinecone-client (CMD)
 ```
 
 4. Setup your .env file. And set the variables.
@@ -66,13 +67,13 @@ npm install
    - Set your SerpAPI Key, if you want to use the search tool with BabyBeeAGI.
 
 ```sh
-cp .env.example .env
+cp .env.example .env (.txt editor)
 ```
 
 5. Run the project
 
 ```sh
-npm run dev
+npm run dev (powershell)
 ```
 
 ## 🚀 Deploy
